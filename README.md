@@ -1,6 +1,26 @@
 # nvim-buffer-count
 
-still empty ...
+A minimal Neovim plugin that adds `:BufferCount` command.
+
+> [!NOTE]
+> This plugin is a learning project and not intended for production use.
+> [Beginner3](https://github.com/uanela/nvim-plugin-challenges#3-nvim-buffer-count)
+
+## Installation
+
+With lazy.nvim:
+
+```lua
+{
+    'ryo-nvim-plugin-challenge/nvim-buffer-count',
+}
+```
+
+## Commands
+
+### `:BufferCount`
+
+Prints number of current listed buffers.
 
 # Answer to challenge
 
